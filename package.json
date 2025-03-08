@@ -3,14 +3,14 @@
   "name": "file-packer",
   "displayName": "File Packer",
   "description": "File Packer is a simple yet powerful VS Code extension that helps you gather all your important project files into a single, shareable output—perfect for uploading to AI tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
     "Other"
   ],
-  "icon": "images/filepackericon.png",
+  "icon": "icon/filepackericon.png",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
@@ -19,8 +19,8 @@
         "command": "file-packer.exportFiles",
         "title": "File Packer",
         "icon": {
-        "light": "images/light/filepackericon.png",
-        "dark": "images/dark/filepackericon.png"
+        "light": "icon/light/filepackericon.png",
+        "dark": "icon/dark/filepackericon.png"
         }
       }
     ],
