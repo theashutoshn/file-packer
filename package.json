@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "file-packer.helloWorld",
-        "title": "Hello World"
+        "command": "file-packer.exportFiles",
+        "title": "File Packer"
       }
     ]
   },
