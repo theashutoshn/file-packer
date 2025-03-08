@@ -9,7 +9,7 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -17,7 +17,15 @@
         "command": "file-packer.exportFiles",
         "title": "File Packer"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "file-packer.exportFiles",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
