@@ -10,13 +10,18 @@
   "categories": [
     "Other"
   ],
+  "icon": "images/filepackericon.png",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "file-packer.exportFiles",
-        "title": "File Packer"
+        "title": "File Packer",
+        "icon": {
+        "light": "images/light/filepackericon.png",
+        "dark": "images/dark/filepackericon.png"
+        }
       }
     ],
     "menus": {
