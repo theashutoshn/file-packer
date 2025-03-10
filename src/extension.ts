@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
         // 1) Decide how you define "important files":
         //    - maybe .js, .ts, .cs, or .html, .css, etc.
         //    - or based on your custom logic
-        const importantExtensions = ['.js', '.ts', '.cs', '.html', '.css'];
+        const importantExtensions = ['.js', '.ts', '.cs', '.html', '.css', '.hpp', '.cpp', '.txt', '.py'];
         const ignoreDirs = ['node_modules', '.git'];
 
         // 2) Recursively gather file paths
@@ -36,9 +36,9 @@ export function activate(context: vscode.ExtensionContext) {
         const targetUri = await vscode.window.showSaveDialog({
           defaultUri: vscode.Uri.file(path.join(folderPath, targetFileName)),
           saveLabel: 'Save Compiled File',
-		  filters: {
-			'Text Files': ['txt']
-		  }
+          filters: {
+            'Text Files': ['txt']
+          }
         });
 
         if (!targetUri) {
@@ -46,11 +46,11 @@ export function activate(context: vscode.ExtensionContext) {
           return;
         }
 
-		// If user didn't manually add an extension, force .txt
-		let finalPath = targetUri.fsPath;
-		if (!finalPath.toLowerCase().endsWith('.txt')) {
-  		finalPath += '.txt';
-		}
+        // If user didn't manually add an extension, force .txt
+        let finalPath = targetUri.fsPath;
+        if (!finalPath.toLowerCase().endsWith('.txt')) {
+          finalPath += '.txt';
+        }
 
         // 5) Write the combined content to that file
         fs.writeFileSync(finalPath, combinedContent, 'utf-8');
