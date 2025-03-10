@@ -1,9 +1,18 @@
 # Change Log
 
-All notable changes to the "file-packer" extension will be documented in this file.
+## [3.1.0] - 2025-03-10
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added
 
-## [Unreleased]
+- Migration to Javascript
+- Added more file extentions
 
-- Initial release
+## [1.0.0] - 2025-03-08
+
+### Added
+
+- Initial release of Fast-Name
+
+
+
+[Always add recent version in descending order]
