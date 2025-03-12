@@ -12,6 +12,9 @@ File Packer is a VS Code extension that allows you to gather important project f
 
 ## Usage
 
+Get this extention from https://marketplace.visualstudio.com/items?itemName=AshutoshNandanwar.file-packer
+or directly search for "File Packer" in VS Code Extensions Panel
+
 1. Right-click on a folder in the Explorer.
 2. Select **File Packer** from the context menu.
 3. Choose a save location, and optionally rename the output file.
