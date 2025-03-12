@@ -2,6 +2,8 @@
 
 File Packer is a VS Code extension that allows you to gather important project files into a single `.txt` for easy sharing on AI Tools.
 
+### Note: This project is currently under development, and I am learning how to build this extension.
+
 ## Features
 
 - Recursively scans a folder for specified file extensions.
