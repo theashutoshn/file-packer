@@ -1,6 +1,13 @@
-MIT License
-
 Copyright (c) 2025 Ashutosh Nandanwar
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-...
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, modify, and distribute the Software, subject to the following conditions:
+
+The Software cannot be copied, modified, or distributed under another name or branding.
+
+Proper credit must always be given to the original author.
+
+This Software cannot be sold or used for commercial purposes under another entity’s name.
+
+Any modified version must clearly indicate changes made and retain the original author's credit.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
